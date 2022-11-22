@@ -1,0 +1,95 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../python-blackspeech-translator"
+        }
+    ],
+    "settings": {
+        "autoDocstring.docstringFormat": "sphinx",
+        "debug.console.fontFamily": "Source Code Pro",
+        "debug.console.fontSize": 15,
+        "editor.dragAndDrop": false,
+        "editor.fontFamily": "Source Code Pro",
+        "editor.fontSize": 12,
+        "editor.formatOnPaste": true,
+        "editor.lineNumbers": "on",
+        "editor.multiCursorModifier": "ctrlCmd",
+        "editor.renderWhitespace": "none",
+        "editor.rulers": [
+            79
+        ],
+        "editor.snippetSuggestions": "top",
+        "editor.fontWeight": "500",
+        "editor.formatOnSave": true,
+        "editor.largeFileOptimizations": false,
+        "eslint.validate": [
+            "vue"
+        ],
+        "files.autoSave": "onWindowChange",
+        "files.exclude": {
+            "**/.git": false,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true
+        },
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true,
+        "files.watcherExclude": {
+            "**/.git/objects/**": true,
+            "**/.git/subtree-cache/**": true,
+            "**/node_modules/**": true,
+            "**/.hg/store/**": true,
+            "**/.venv/**": true
+        },
+        "[html]": {
+            "editor.suggest.insertMode": "replace"
+        },
+        "html.format.enable": false,
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "notebook.cellToolbarLocation": {
+            "default": "right",
+            "jupyter-notebook": "left"
+        },
+        "prettier.trailingComma": "none",
+        "python.analysis.completeFunctionParens": true,
+        "python.autoComplete.addBrackets": true,
+        "python.defaultInterpreterPath": "/home/dev/projects/cookiecutter-py3-package/venv/bin/python3.9",
+        "python.formatting.provider": "black",
+        "python.linting.banditEnabled": false,
+        "python.linting.flake8Enabled": true,
+        "python.linting.pylintEnabled": false,
+        "python.testing.pytestEnabled": true,
+        "python.pythonPath": "/home/dev/projects/cookiecutter-py3-package",
+        "tailwindCSS.emmetCompletions": true,
+        "terminal.integrated.fontFamily": "Source Code Pro",
+        "terminal.integrated.fontSize": 12,
+        "terminal.integrated.fontWeight": "600",
+        "window.closeWhenEmpty": false,
+        "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+        "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+        "workbench.settings.editor": "json",
+        "workbench.settings.openDefaultSettings": true,
+        "workbench.settings.useSplitJSON": true,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "remote.SSH.connectTimeout": 60,
+        "terminal.integrated.windowsEnableConpty": false,
+        "vim.hlsearch": true,
+        "workbench.editor.wrapTabs": true,
+        "workbench.editor.decorations.badges": true,
+        "workbench.editor.decorations.colors": true,
+        "workbench.editorAssociations": {
+            "*.ipynb": "jupyter-notebook"
+        },
+        "snooty.conflictingExtensions": [
+            "tht13.rst-vscode"
+        ],
+        "git.ignoreLimitWarning": true
+        // depracated: "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    }
+}

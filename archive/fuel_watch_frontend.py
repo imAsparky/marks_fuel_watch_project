@@ -121,7 +121,7 @@ def html_home_body(filtered=True, **kwargs):
         if key != kwargs["Product"]:
             select_form = select_form + f"<option value={key}>{key}</option>"
         else:
-            select_form = select_form + f"<option value={key} selected>{key}</option>"
+            select_form = select_form + f"<option value=\"{key}\" selected>{key}</option>"
 
     select_form = (
         select_form
